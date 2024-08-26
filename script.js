@@ -2,6 +2,7 @@ const URL =
   "https://iskarr.github.io/austindonovan.github.io/api/business.json";
 
 let cards = document.querySelector("div.cards");
+let cardsBack = document.querySelector("div.cards-back");
 let para = document.createElement("p");
 
 fetch(URL)
